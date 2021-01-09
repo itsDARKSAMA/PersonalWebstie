@@ -1,0 +1,340 @@
+.container {
+
+    overflow: hidden;
+}
+
+.padding-portfolio {
+
+    padding-top: 90px;
+}
+
+#home {
+
+    background-color: #9E242A;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.myAvatarStyle>img {
+
+    /*border-radius: 100%;
+	border : solid 4px #bdc3c7;*/
+    opacity: 0.8;
+    /*	width: 300px;
+*/
+    background-image: url('static/img/logo.svg');
+    width: 300px;
+    height: 300px;
+}
+
+.myAvatarStyle>img:hover {
+
+
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.myAvatarStyle {
+
+    padding-left: 25px;
+}
+
+.myNameStyle {
+
+    font-size: 3em;
+    color: #ecf0f1;
+}
+
+.myDescriptionStyle {
+
+    color: #ecf0f1;
+    font-size: 2em;
+    background-color: rgba(236, 240, 241, 0.1);
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 2%;
+    padding-right: 60px;
+    padding-left: 55px;
+}
+
+
+
+
+
+/*.myDescriptionStyle:hover {
+
+	color: #343A40;
+	background-color: rgba(236,240,241,1);
+	border-radius: 2%;
+	transition:0.3s;
+}*/
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mynavbg {
+
+    background-color: #1e1e1e;
+    height: 60px !important;
+}
+
+.nav-padding {
+    padding-top: 1%;
+    margin-left: 30%;
+}
+
+.mybranding {
+
+    width: 460px !important;
+    height: 48px;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    color: white !important;
+    position: relative;
+}
+
+.mybranding::after {
+
+    position: absolute;
+    left: 20%;
+    top: 24%;
+    content: "ABDULRAHMAN AL-MAJAYDA"
+}
+
+.jumbotron {
+
+
+    background: url("../img/hero2.png") no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    /* margin-bottom: 0 !important; */
+}
+
+
+.mySmStyle {
+
+    font-size: 1.5em;
+    color: #2c3e50;
+    padding-left: 25px;
+}
+
+.mySmStyle>a {
+
+    text-decoration: none;
+    text-decoration-color: red;
+}
+
+.mySmStyle>a:link {
+
+
+    text-decoration-color: red;
+}
+
+.mySmStyle>a>span {
+
+    background-color: rgba(236, 240, 241, 0);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgba(236, 240, 241, 1);
+    border: solid 2px rgba(236, 240, 241, 1);
+}
+
+.mySmStyle>a>span:hover {
+
+
+    transition: 0.2s;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #222;
+}
+
+.myFooter>div div div form {
+
+    opacity: 0.8;
+}
+
+.myFooter>div div div form:hover {
+
+    transition: 0.3s;
+
+    opacity: 1;
+}
+
+
+
+.footerDetails {
+
+    opacity: 0.8;
+}
+
+.footerDetails:hover {
+
+    transition: 0.3s;
+
+    opacity: 1;
+}
+
+
+.mySmStyle>a>span:hover {
+
+
+    transition: 0.2s;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #222;
+}
+
+
+
+.myFooter {
+
+    background-color: #1e1e1e;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #e1e1e1;
+    position: relative;
+}
+
+
+.FooterLinks>li {
+
+    list-style: none;
+    display: inline;
+    letter-spacing: 0.09em;
+    padding: 10px;
+}
+
+.FooterLinks>li>a {
+
+    text-decoration: none;
+
+    color: #e1e1e1;
+}
+
+
+
+
+#footerDet {
+
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.myLogoFooter {
+
+    opacity: 0.8;
+}
+
+
+.myLogoFooter:hover {
+
+    transition: 0.3s;
+    opacity: 1;
+}
+
+
+
+
+
+/* my sm Style in footer */
+
+.mySmStyleFooter {
+
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.mySmStyleFooter>a {
+
+    text-decoration: none;
+    text-decoration-color: red;
+}
+
+.mySmStyleFooter>a:link {
+
+
+    text-decoration-color: red;
+}
+
+.mySmStyleFooter>a>span {
+
+    background-color: rgba(236, 240, 241, 0);
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: rgba(236, 240, 241, 1);
+    border: solid 2px rgba(236, 240, 241, 1);
+}
+
+.mySmStyleFooter>a>span:hover {
+
+
+    transition: 0.5s;
+    background-color: #ecf0f1;
+    color: #222;
+    transform: rotate(360deg);
+}
+
+.card {
+
+
+background-color: #1D1D1D;
+color:white;
+border:0px ;
+float: none;
+display: initial;
+
+}
+
+.card > img {
+padding-top: 20px;
+width:60%;
+
+}
+
+
+#services {
+
+
+    background-color: #1D1D1D;
+}
+
+#said {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.centeralign {
+
+    text-align: center;
+}
+
+
+@media ( max-width: 400px) {
+
+
+    .myNameStyle {
+
+        font-size: 2em;
+    }
+}
